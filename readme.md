@@ -8,8 +8,26 @@
   * sqlite support for PHP
   * packages updated and upgraded
 
-## Usage
+## Installation
 
+#### With docker build
+  ```
+  git clone https://github.com/sheebypanda/laravel-docker-container.git
+  ```
+  ```
+  cd laravel-docker-container
+  ```
+  ```
+  docker build .
+  ```
+
+#### Or with docker pull
+```
+docker pull sheebypanda/laravel:latest
+```
+
+
+## Usage
   * Serving a fresh Laravel installation :
   ```
   docker run -p 80:80 -p 443:443 -d sheebypanda/laravel
